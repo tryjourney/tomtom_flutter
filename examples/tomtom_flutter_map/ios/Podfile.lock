@@ -1,0 +1,70 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - tomtom_flutter_map_ios (0.0.1):
+    - Flutter
+    - TomTomFlutterSDKMap (= 0.1.3)
+  - TomTomFlutterSDKCore (0.1.3):
+    - Flutter
+    - TomTomSDKCommon (= 0.49.0)
+    - TomTomSDKLocationProvider (= 0.49.0)
+  - TomTomFlutterSDKMap (0.1.3):
+    - Flutter
+    - TomTomFlutterSDKCore (= 0.1.3)
+    - TomTomSDKCommon (= 0.49.0)
+    - TomTomSDKMapDisplay (= 0.49.0)
+  - TomTomSDKBindingFrameworkLoggingInternal (0.49.0)
+  - TomTomSDKBindingMapDisplayEngineInternal (0.49.0)
+  - TomTomSDKCommon (0.49.0):
+    - TomTomSDKBindingFrameworkLoggingInternal (= 0.49.0)
+  - TomTomSDKFeatureToggle (0.49.0):
+    - TomTomSDKCommon (= 0.49.0)
+  - TomTomSDKLocationProvider (0.49.0):
+    - TomTomSDKCommon (= 0.49.0)
+  - TomTomSDKMapDisplay (0.49.0):
+    - TomTomSDKBindingMapDisplayEngineInternal (= 0.49.0)
+    - TomTomSDKCommon (= 0.49.0)
+    - TomTomSDKFeatureToggle (= 0.49.0)
+    - TomTomSDKLocationProvider (= 0.49.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - tomtom_flutter_map_ios (from `.symlinks/plugins/tomtom_flutter_map_ios/ios`)
+
+SPEC REPOS:
+  https://dl.cloudsmith.io/e7eYXMXKu1beSxAn/journey-technologies/tomtom_flutter/cocoapods/index.git:
+    - TomTomFlutterSDKCore
+    - TomTomFlutterSDKMap
+    - TomTomSDKBindingFrameworkLoggingInternal
+    - TomTomSDKBindingMapDisplayEngineInternal
+    - TomTomSDKCommon
+    - TomTomSDKFeatureToggle
+    - TomTomSDKLocationProvider
+    - TomTomSDKMapDisplay
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  tomtom_flutter_map_ios:
+    :path: ".symlinks/plugins/tomtom_flutter_map_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
+  tomtom_flutter_map_ios: fa3749af7819dd464535e252d66f5684139d8a86
+  TomTomFlutterSDKCore: d543f644a5aec0f40a0f095a662d2892f27a4807
+  TomTomFlutterSDKMap: 4a4baa372fd2781c9b7074c7cdc9859506c426bd
+  TomTomSDKBindingFrameworkLoggingInternal: f867ae8465840d98c020164c9dcac7f5248d7f9f
+  TomTomSDKBindingMapDisplayEngineInternal: 08086ea6e3d4865d13c4a7c97ae3394d2624d26e
+  TomTomSDKCommon: bc2c3997d9edc47e4e5b76a6c3ecaba6020c62fb
+  TomTomSDKFeatureToggle: 637701c805651382fdcd7bd596b861d7d33ed205
+  TomTomSDKLocationProvider: 1c270882182289baa43b91b6dd13db17bf3281b1
+  TomTomSDKMapDisplay: f72306493da59f16a67c82e1406021558da0140a
+
+PODFILE CHECKSUM: 8572565589349d0a83eacd3c7040e67edcf4ce78
+
+COCOAPODS: 1.13.0
