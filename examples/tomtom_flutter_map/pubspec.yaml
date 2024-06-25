@@ -10,7 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   geolocator: ^12.0.0
-  tomtom_flutter_map: ^0.1.0
+  tomtom_flutter_map:
+    hosted: https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/
+    version: ^0.1.2
 
 dev_dependencies:
   flutter_driver:

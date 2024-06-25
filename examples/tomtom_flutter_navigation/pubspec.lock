@@ -437,145 +437,165 @@ packages:
     source: hosted
     version: "0.7.0"
   tomtom_flutter_core:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_core/tomtom_flutter_core"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_core
+      sha256: "18275fc080478ee4c06ee30b7a6094c11edf34fa62a505aad40ba01772512567"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_core_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_core/tomtom_flutter_core_android"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_core_android
+      sha256: "3fcf69c11fc116b04b7e8287db7d20687d9b87cb66b7f0c72b45ca1eb77a6c31"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_core_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_core/tomtom_flutter_core_ios"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_core_ios
+      sha256: "0a37b1a2989ece029957ab57df2f8ef0959a31d0ef9b2082886fd04d0312cf68"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_core_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_core/tomtom_flutter_core_platform_interface"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_core_platform_interface
+      sha256: def0c7e2738886e3f2521c6c17bc3e4f377b2bab8a9ecdefd330d38872a0272a
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_map:
     dependency: "direct main"
     description:
-      path: "../../../packages/tomtom_flutter_map/tomtom_flutter_map"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_map
+      sha256: e071707b66ba9e32a974dfe7a7c98a0e44405e5a51bd72011e7a4f10200b41b0
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_map_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_map/tomtom_flutter_map_android"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_map_android
+      sha256: "4e96458b23e78df0ea31cbd25ba20d1b82918e2ef74355c478c0153b5d6935a4"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_map_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_map/tomtom_flutter_map_ios"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_map_ios
+      sha256: "82542bf67baae5855167272e6fb22b62d4aadb80b4ce7751726c1824ec71864e"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_map_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_map/tomtom_flutter_map_platform_interface"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_map_platform_interface
+      sha256: "761ab598df9565813880ef509ee1f12fd9d57b24c21bebda0b69480582d7aa87"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_navigation:
     dependency: "direct main"
     description:
-      path: "../../../packages/tomtom_flutter_navigation/tomtom_flutter_navigation"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_navigation
+      sha256: "9b783abdf16acb8a70be2b73a43dd0f7a0cb35600664ce7d430c3ae31bec245a"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_navigation_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_navigation/tomtom_flutter_navigation_android"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_navigation_android
+      sha256: fdc98a8de73ce0806cf59e703cc44b2978dd3d0738fbe07dd4c26108eabf908f
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_navigation_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_navigation/tomtom_flutter_navigation_ios"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_navigation_ios
+      sha256: "9710e2b98f21072cf06d681563f0279813b1860a9e1f4f360cb3c627f6d1aa7b"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_navigation_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_navigation/tomtom_flutter_navigation_platform_interface"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_navigation_platform_interface
+      sha256: "634bd8c35a9d4242578840ef2b07d271d7d2340e44807443d921f0709af2f184"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_navigation_ui_native:
     dependency: "direct main"
     description:
-      path: "../../../packages/tomtom_flutter_navigation_ui_native/tomtom_flutter_navigation_ui_native"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_navigation_ui_native
+      sha256: "9b2cce97d6dc0a751901a0f1be4a8bded985c95d7823688c56073905a9878a5e"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_navigation_ui_native_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_navigation_ui_native/tomtom_flutter_navigation_ui_native_android"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_navigation_ui_native_android
+      sha256: "36720897704acf6ea858c46b66d5721cb2c01bc4b7565cfa4360d8fa0c47595a"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_navigation_ui_native_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_navigation_ui_native/tomtom_flutter_navigation_ui_native_ios"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_navigation_ui_native_ios
+      sha256: "22b9de907062e35722cff2718aa6257e1a15c92cbc6285cf99b41445c90c6ca4"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_navigation_ui_native_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_navigation_ui_native/tomtom_flutter_navigation_ui_native_platform_interface"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_navigation_ui_native_platform_interface
+      sha256: "6dcbf99e9d799d91ed0a6fb13db8647dc0468967aee86d81c16eb0253467f370"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_route_planner:
     dependency: "direct main"
     description:
-      path: "../../../packages/tomtom_flutter_route_planner/tomtom_flutter_route_planner"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_route_planner
+      sha256: "494b5bd30a7d70c875fd122354d6e46cac70709188ce19639e1118d0f732fa46"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_route_planner_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_route_planner/tomtom_flutter_route_planner_android"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_route_planner_android
+      sha256: "56cdf9aa67abafa541a669f3f014cc296315428e4f102e3d32a2278d0e9005d3"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_route_planner_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_route_planner/tomtom_flutter_route_planner_ios"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_route_planner_ios
+      sha256: "3827dfe74eb7718c5464ddc04e8fdce099f59a3d8a7e59da61430f985d21f4c0"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_route_planner_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_route_planner/tomtom_flutter_route_planner_platform_interface"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_route_planner_platform_interface
+      sha256: "05446ee2aacdabb9fb2c20bda82294c9f1c7136789d0f7c155bc909458d8a317"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   typed_data:
     dependency: transitive
     description:

@@ -1,17 +1,19 @@
 PODS:
   - Flutter (1.0.0)
+  - geolocator_apple (1.2.0):
+    - Flutter
   - integration_test (0.0.1):
     - Flutter
   - tomtom_flutter_map_ios (0.0.1):
     - Flutter
-    - TomTomFlutterSDKMap (= 0.1.3)
-  - TomTomFlutterSDKCore (0.1.3):
+    - TomTomFlutterSDKMap (= 0.1.4)
+  - TomTomFlutterSDKCore (0.1.4):
     - Flutter
     - TomTomSDKCommon (= 0.49.0)
     - TomTomSDKLocationProvider (= 0.49.0)
-  - TomTomFlutterSDKMap (0.1.3):
+  - TomTomFlutterSDKMap (0.1.4):
     - Flutter
-    - TomTomFlutterSDKCore (= 0.1.3)
+    - TomTomFlutterSDKCore (= 0.1.4)
     - TomTomSDKCommon (= 0.49.0)
     - TomTomSDKMapDisplay (= 0.49.0)
   - TomTomSDKBindingFrameworkLoggingInternal (0.49.0)
@@ -30,6 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
   - tomtom_flutter_map_ios (from `.symlinks/plugins/tomtom_flutter_map_ios/ios`)
 
@@ -47,6 +50,8 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/ios"
   integration_test:
     :path: ".symlinks/plugins/integration_test/ios"
   tomtom_flutter_map_ios:
@@ -54,10 +59,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  geolocator_apple: 6cbaf322953988e009e5ecb481f07efece75c450
   integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
-  tomtom_flutter_map_ios: fa3749af7819dd464535e252d66f5684139d8a86
-  TomTomFlutterSDKCore: d543f644a5aec0f40a0f095a662d2892f27a4807
-  TomTomFlutterSDKMap: 4a4baa372fd2781c9b7074c7cdc9859506c426bd
+  tomtom_flutter_map_ios: d858e5afe380f869cb240795afbf997bbb808e01
+  TomTomFlutterSDKCore: 2c26d5fd023eb84c09d48163d0fe0df0edec46eb
+  TomTomFlutterSDKMap: 6ec66d4cb7fdcbfd75f026c1f541371d094541d3
   TomTomSDKBindingFrameworkLoggingInternal: f867ae8465840d98c020164c9dcac7f5248d7f9f
   TomTomSDKBindingMapDisplayEngineInternal: 08086ea6e3d4865d13c4a7c97ae3394d2624d26e
   TomTomSDKCommon: bc2c3997d9edc47e4e5b76a6c3ecaba6020c62fb

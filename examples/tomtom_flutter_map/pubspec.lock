@@ -327,31 +327,35 @@ packages:
   tomtom_flutter_map:
     dependency: "direct main"
     description:
-      path: "../../../packages/tomtom_flutter_map/tomtom_flutter_map"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_map
+      sha256: e071707b66ba9e32a974dfe7a7c98a0e44405e5a51bd72011e7a4f10200b41b0
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_map_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_map/tomtom_flutter_map_android"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_map_android
+      sha256: "4e96458b23e78df0ea31cbd25ba20d1b82918e2ef74355c478c0153b5d6935a4"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_map_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_map/tomtom_flutter_map_ios"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_map_ios
+      sha256: "82542bf67baae5855167272e6fb22b62d4aadb80b4ce7751726c1824ec71864e"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   tomtom_flutter_map_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../../packages/tomtom_flutter_map/tomtom_flutter_map_platform_interface"
-      relative: true
-    source: path
-    version: "0.1.0+1"
+      name: tomtom_flutter_map_platform_interface
+      sha256: "761ab598df9565813880ef509ee1f12fd9d57b24c21bebda0b69480582d7aa87"
+      url: "https://dart.cloudsmith.io/journey-technologies/tomtom_flutter/"
+    source: hosted
+    version: "0.1.2"
   typed_data:
     dependency: transitive
     description:
