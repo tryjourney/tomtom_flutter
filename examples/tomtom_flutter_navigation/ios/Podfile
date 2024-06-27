@@ -39,14 +39,6 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-  # local path
-  # TODO: remove when publishing
-  pod 'TomTomFlutterSDKCore', :path => '../../../../ios_packages/TomTomFlutterSDKCore'
-  pod 'TomTomFlutterSDKRoutePlanner', :path => '../../../../ios_packages/TomTomFlutterSDKRoutePlanner'
-  pod 'TomTomFlutterSDKMap', :path => '../../../../ios_packages/TomTomFlutterSDKMap'
-  pod 'TomTomFlutterSDKNavigation', :path => '../../../../ios_packages/TomTomFlutterSDKNavigation'
-  pod 'TomTomFlutterSDKUI', :path => '../../../../ios_packages/TomTomFlutterSDKUI'
-
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 end
 
