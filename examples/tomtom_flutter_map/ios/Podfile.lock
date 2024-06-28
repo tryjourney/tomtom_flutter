@@ -6,14 +6,14 @@ PODS:
     - Flutter
   - tomtom_flutter_map_ios (0.0.1):
     - Flutter
-    - TomTomFlutterSDKMap (= 0.1.4)
-  - TomTomFlutterSDKCore (0.1.4):
+    - TomTomFlutterSDKMap (= 0.1.5)
+  - TomTomFlutterSDKCore (0.1.5):
     - Flutter
     - TomTomSDKCommon (= 0.49.0)
     - TomTomSDKLocationProvider (= 0.49.0)
-  - TomTomFlutterSDKMap (0.1.4):
+  - TomTomFlutterSDKMap (0.1.5):
     - Flutter
-    - TomTomFlutterSDKCore (= 0.1.4)
+    - TomTomFlutterSDKCore (= 0.1.5)
     - TomTomSDKCommon (= 0.49.0)
     - TomTomSDKMapDisplay (= 0.49.0)
   - TomTomSDKBindingFrameworkLoggingInternal (0.49.0)
@@ -61,9 +61,9 @@ SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   geolocator_apple: 6cbaf322953988e009e5ecb481f07efece75c450
   integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
-  tomtom_flutter_map_ios: d858e5afe380f869cb240795afbf997bbb808e01
-  TomTomFlutterSDKCore: 2c26d5fd023eb84c09d48163d0fe0df0edec46eb
-  TomTomFlutterSDKMap: 6ec66d4cb7fdcbfd75f026c1f541371d094541d3
+  tomtom_flutter_map_ios: 9eab658967a140dca4f5399093965a5329ad6bca
+  TomTomFlutterSDKCore: d2dc933e518946b5e883b739f7bca42b687610f6
+  TomTomFlutterSDKMap: 74da072cdb299ecf707f379e9a07902dd9995773
   TomTomSDKBindingFrameworkLoggingInternal: f867ae8465840d98c020164c9dcac7f5248d7f9f
   TomTomSDKBindingMapDisplayEngineInternal: 08086ea6e3d4865d13c4a7c97ae3394d2624d26e
   TomTomSDKCommon: bc2c3997d9edc47e4e5b76a6c3ecaba6020c62fb
@@ -71,6 +71,6 @@ SPEC CHECKSUMS:
   TomTomSDKLocationProvider: 1c270882182289baa43b91b6dd13db17bf3281b1
   TomTomSDKMapDisplay: f72306493da59f16a67c82e1406021558da0140a
 
-PODFILE CHECKSUM: 8572565589349d0a83eacd3c7040e67edcf4ce78
+PODFILE CHECKSUM: 641d63c43342e4095f817f598ff6b4eb74991a1b
 
 COCOAPODS: 1.13.0

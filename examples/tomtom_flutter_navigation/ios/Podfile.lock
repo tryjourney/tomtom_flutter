@@ -8,30 +8,30 @@ PODS:
     - Flutter
   - tomtom_flutter_map_ios (0.0.1):
     - Flutter
-    - TomTomFlutterSDKMap (= 0.1.4)
+    - TomTomFlutterSDKMap (= 0.1.5)
   - tomtom_flutter_navigation_ios (0.0.1):
     - Flutter
-    - TomTomFlutterSDKNavigation (= 0.1.4)
+    - TomTomFlutterSDKNavigation (= 0.1.5)
   - tomtom_flutter_navigation_ui_native_ios (0.0.1):
     - Flutter
-    - TomTomFlutterSDKUI (= 0.1.4)
-  - tomtom_flutter_route_planner_ios (0.1.4):
+    - TomTomFlutterSDKUI (= 0.1.5)
+  - tomtom_flutter_route_planner_ios (0.1.5):
     - Flutter
-    - TomTomFlutterSDKRoutePlanner (= 0.1.4)
-  - TomTomFlutterSDKCore (0.1.4):
+    - TomTomFlutterSDKRoutePlanner (= 0.1.5)
+  - TomTomFlutterSDKCore (0.1.5):
     - Flutter
     - TomTomSDKCommon (= 0.49.0)
     - TomTomSDKLocationProvider (= 0.49.0)
-  - TomTomFlutterSDKMap (0.1.4):
+  - TomTomFlutterSDKMap (0.1.5):
     - Flutter
-    - TomTomFlutterSDKCore (= 0.1.4)
+    - TomTomFlutterSDKCore (= 0.1.5)
     - TomTomSDKCommon (= 0.49.0)
     - TomTomSDKMapDisplay (= 0.49.0)
-  - TomTomFlutterSDKNavigation (0.1.4):
+  - TomTomFlutterSDKNavigation (0.1.5):
     - Flutter
-    - TomTomFlutterSDKCore (= 0.1.4)
-    - TomTomFlutterSDKMap (= 0.1.4)
-    - TomTomFlutterSDKRoutePlanner (= 0.1.4)
+    - TomTomFlutterSDKCore (= 0.1.5)
+    - TomTomFlutterSDKMap (= 0.1.5)
+    - TomTomFlutterSDKRoutePlanner (= 0.1.5)
     - TomTomSDKCommon (= 0.49.0)
     - TomTomSDKDefaultTextToSpeech (= 0.49.0)
     - TomTomSDKHorizonEngineTileStore (= 0.49.0)
@@ -47,9 +47,9 @@ PODS:
     - TomTomSDKRoutingVisualization (= 0.49.0)
     - TomTomSDKTextToSpeech (= 0.49.0)
     - TomTomSDKTextToSpeechEngine (= 0.49.0)
-  - TomTomFlutterSDKRoutePlanner (0.1.4):
+  - TomTomFlutterSDKRoutePlanner (0.1.5):
     - Flutter
-    - TomTomFlutterSDKCore (= 0.1.4)
+    - TomTomFlutterSDKCore (= 0.1.5)
     - TomTomSDKCommon (= 0.49.0)
     - TomTomSDKLocationProvider (= 0.49.0)
     - TomTomSDKNavigationEngines (= 0.49.0)
@@ -57,10 +57,10 @@ PODS:
     - TomTomSDKRoutePlanner (= 0.49.0)
     - TomTomSDKRoutePlannerOnline (= 0.49.0)
     - TomTomSDKRoutingCommon (= 0.49.0)
-  - TomTomFlutterSDKUI (0.1.4):
+  - TomTomFlutterSDKUI (0.1.5):
     - Flutter
-    - TomTomFlutterSDKCore (= 0.1.4)
-    - TomTomFlutterSDKNavigation (= 0.1.4)
+    - TomTomFlutterSDKCore (= 0.1.5)
+    - TomTomFlutterSDKNavigation (= 0.1.5)
     - TomTomSDKCommon (= 0.49.0)
     - TomTomSDKDefaultTextToSpeech (= 0.49.0)
     - TomTomSDKNavigationUI (= 0.49.0)
@@ -334,14 +334,14 @@ DEPENDENCIES:
   - tomtom_flutter_navigation_ios (from `.symlinks/plugins/tomtom_flutter_navigation_ios/ios`)
   - tomtom_flutter_navigation_ui_native_ios (from `.symlinks/plugins/tomtom_flutter_navigation_ui_native_ios/ios`)
   - tomtom_flutter_route_planner_ios (from `.symlinks/plugins/tomtom_flutter_route_planner_ios/ios`)
-  - TomTomFlutterSDKCore (from `../../../../ios_packages/TomTomFlutterSDKCore`)
-  - TomTomFlutterSDKMap (from `../../../../ios_packages/TomTomFlutterSDKMap`)
-  - TomTomFlutterSDKNavigation (from `../../../../ios_packages/TomTomFlutterSDKNavigation`)
-  - TomTomFlutterSDKRoutePlanner (from `../../../../ios_packages/TomTomFlutterSDKRoutePlanner`)
-  - TomTomFlutterSDKUI (from `../../../../ios_packages/TomTomFlutterSDKUI`)
 
 SPEC REPOS:
   https://dl.cloudsmith.io/e7eYXMXKu1beSxAn/journey-technologies/tomtom_flutter/cocoapods/index.git:
+    - TomTomFlutterSDKCore
+    - TomTomFlutterSDKMap
+    - TomTomFlutterSDKNavigation
+    - TomTomFlutterSDKRoutePlanner
+    - TomTomFlutterSDKUI
     - TomTomSDKBindingFrameworkHTTPInternal
     - TomTomSDKBindingFrameworkLoggingInternal
     - TomTomSDKBindingFrameworkSecurityInternal
@@ -418,31 +418,21 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/tomtom_flutter_navigation_ui_native_ios/ios"
   tomtom_flutter_route_planner_ios:
     :path: ".symlinks/plugins/tomtom_flutter_route_planner_ios/ios"
-  TomTomFlutterSDKCore:
-    :path: "../../../../ios_packages/TomTomFlutterSDKCore"
-  TomTomFlutterSDKMap:
-    :path: "../../../../ios_packages/TomTomFlutterSDKMap"
-  TomTomFlutterSDKNavigation:
-    :path: "../../../../ios_packages/TomTomFlutterSDKNavigation"
-  TomTomFlutterSDKRoutePlanner:
-    :path: "../../../../ios_packages/TomTomFlutterSDKRoutePlanner"
-  TomTomFlutterSDKUI:
-    :path: "../../../../ios_packages/TomTomFlutterSDKUI"
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   geolocator_apple: 6cbaf322953988e009e5ecb481f07efece75c450
   integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
   tomtom_flutter_core_ios: f9e1aaf41d9f9227977d631daed31c13a8fadae1
-  tomtom_flutter_map_ios: d858e5afe380f869cb240795afbf997bbb808e01
-  tomtom_flutter_navigation_ios: cfa24435c5e2746785bea7e2a2cb849cda96002d
-  tomtom_flutter_navigation_ui_native_ios: baeb72b18e04e3d778806678a4b107da8296a581
-  tomtom_flutter_route_planner_ios: 84cee0ac5e8de19468a6eb34b496affb2ec986e9
-  TomTomFlutterSDKCore: 2ac7b99c6e1f1e835f1c0141e13c9e1d0851ade1
-  TomTomFlutterSDKMap: 4a583c4f3ada40c5f228fb769b5ee6ace785aa6b
-  TomTomFlutterSDKNavigation: 1b029e6266826fa0a436c8236e4a4ea55ce21670
-  TomTomFlutterSDKRoutePlanner: 6085dbef60564b4a14092263047d17533c64ee29
-  TomTomFlutterSDKUI: 4ae412d7999bfab201cd8abccc4fbace422f9d34
+  tomtom_flutter_map_ios: 9eab658967a140dca4f5399093965a5329ad6bca
+  tomtom_flutter_navigation_ios: 30271d8676b6304ddb910fe950e22e5316bcd627
+  tomtom_flutter_navigation_ui_native_ios: b2bf0a2679caa624d10e11918914483ebef76354
+  tomtom_flutter_route_planner_ios: d89d08ad0690f2f794d01fbf42d706fe599a61d7
+  TomTomFlutterSDKCore: d2dc933e518946b5e883b739f7bca42b687610f6
+  TomTomFlutterSDKMap: 74da072cdb299ecf707f379e9a07902dd9995773
+  TomTomFlutterSDKNavigation: 5f97893ca667a33c3b71ff68ac35b732f0f08bd4
+  TomTomFlutterSDKRoutePlanner: ce2bdf82ad5b4368b09f24d186cde967dd31f122
+  TomTomFlutterSDKUI: 7301d16f3a45b5ff90b772beea26219cdcedc524
   TomTomSDKBindingFrameworkHTTPInternal: f866a55169283a30963e526fe7a4769fa6bdda93
   TomTomSDKBindingFrameworkLoggingInternal: f867ae8465840d98c020164c9dcac7f5248d7f9f
   TomTomSDKBindingFrameworkSecurityInternal: a59a342526f279f33004b7eee831e52370492016
@@ -502,6 +492,6 @@ SPEC CHECKSUMS:
   TomTomSDKUnifiedLocationDecoder: 3fc1e86086c7f374b6f3ea411fb4ca8da810f6db
   TomTomSDKVehicle: 77b01b9f7282bd57168b98f925a61313889e5dde
 
-PODFILE CHECKSUM: 69ed7e770519257c8fdfffba4a4d1568207aa80b
+PODFILE CHECKSUM: 9a52a38b1ee19535280de03c58fe5154c98d754f
 
 COCOAPODS: 1.13.0
